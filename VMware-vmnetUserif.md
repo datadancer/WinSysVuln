@@ -145,4 +145,4 @@ CNVD: https://www.cnvd.org.cn/flaw/show/CNVD-2020-53154
 
 ### Screenshot
 
-![image](https://github.com/datadancer/WinSysVuln/blob/main/VMnetUserif.jpg)
+![image](https://github.com/datadancer/WinSysVuln/blob/main/VMnetUserif.png)
