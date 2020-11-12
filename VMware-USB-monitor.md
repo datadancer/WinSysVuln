@@ -130,3 +130,4 @@ CNVD: https://www.cnvd.org.cn/flaw/show/CNVD-2020-53155
 
 ### Screenshot
 
+![image](https://github.com/datadancer/WinSysVuln/blob/main/vmvare%20hcmon.jpg)
