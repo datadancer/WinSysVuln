@@ -16,7 +16,7 @@ These page show one of the practical vulns that Found. I reported these bugs to 
 * Software Link: 3.https://my.vmware.com/cn/web/vmware/downloads/details?downloadGroup=WKST-1556-WIN&productId=799&rPId=47859
 * Version: VMware Workstation Pro 15.5.6
 ### Description
-Kernel module vmnetuserif.sys in the network application interface driver of VMware Workstation Pro 15.5.6 allows attackers to inject a crafted argument via the argument of an ioctl on device "\\\\.\\VMnetUserif" with the command **0x81022090** and cause a kernel crash.
+Kernel module vmnetuserif.sys and vmnet.sys in the network application interface driver of VMware Workstation Pro 15.5.6 allows attackers to inject a crafted argument via the argument of an ioctl on device "\\\\.\\VMnetUserif" with the command **0x81022090** and cause a kernel crash.
 
 To explore this vulnerability, some one must open the device file  "\\\\.\\VMnetUserif", call an ioctl system call on this device file with the command **0x81022090** and a crafted payload as the third argument.
 ### PoC
